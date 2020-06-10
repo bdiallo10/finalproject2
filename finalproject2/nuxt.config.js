@@ -1,9 +1,13 @@
 
 export default {
   mode: 'universal',
+  modules: [
+    '@nuxtjs/axios',
+  ],
   /*
   ** Headers of the page
   */
+
   head: {
     title: process.env.npm_package_name || '',
     meta: [
